@@ -1,0 +1,141 @@
+body {
+  font-family: "Roboto", Arial, sans-serif;
+}
+ul {
+  list-style: none;
+  margin: 0; padding: 0;
+}
+#header {
+
+}
+
+#header .search-bar {
+  background-color: #ccc;
+  line-height: 50px;
+  height: 50px;
+  padding: 0;
+}
+
+#header .tool-bar {
+  background-color: #999;
+  height: 50px;
+  padding: 0;
+}
+
+.formatting-tools li {
+  display: inline-block;
+  font-size: 1.2em;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+}
+.user-menu {
+  background-color: #242424;
+  height: 50px;
+  width: 50px;
+}
+
+.notes-list ul li {
+  background-color: #999;
+  padding: 35px 30px;
+  cursor: pointer;
+  transition: background-color .3s;
+}
+
+.notes-list ul li:hover {
+  background-color: #888;
+  transition: background-color .3s;
+}
+
+.notes-list ul li.active {
+  background-color: #fff;
+}
+
+.notes-list ul li h2 {
+  font-size: 1.3em;
+  margin: 0;
+}
+.notes-list ul li p {
+  margin: 5px 0 0;
+  font-size: 0.9em;
+}
+
+#main-app {
+  position: absolute;
+  top: 50px;
+  bottom: 0;
+  left: 0; right: 0;
+}
+#main-app > .row {
+  height: 100%;
+}
+
+#main-app .sidebar {
+  position: relative;
+  background-color: #aaa;
+  height: 100%;
+  padding: 0;
+}
+
+.add-new-note {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  background-color: #006699;
+  transition: background-color .3s;
+  cursor: pointer;
+}
+
+.add-new-note:hover {
+  background-color: #005588;
+  transition: background-color .3s;
+}
+
+#main-app .notes-area {
+  position: relative;
+  background-color: #FFF;
+  padding: 0;
+  height: 100%;
+}
+.editor {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+  top: 0;
+  overflow-y: hidden;
+}
+.editor textarea {
+  height: 100%;
+  width: 100%;
+  resize: none;
+  background-color: transparent;
+  border: none;
+  padding: 50px 70px;
+  font-size: 1.4em;
+  font-weight: 100;
+}
+.editor textarea:focus {
+  outline: none;
+}
+
+.statusbar {
+  background-color: #BBBBBB;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  padding:0 30px;
+}
+.statusbar .status-message {
+  line-height: 50px;
+  margin: 0;
+}
