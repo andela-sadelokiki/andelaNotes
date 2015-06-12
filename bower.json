@@ -1,0 +1,10 @@
+{
+  "name": "andelaNotes",
+  "description": "A Note App",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular-bootstrap": "~0.13.0"
+  }
+}

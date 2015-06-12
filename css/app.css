@@ -151,3 +151,8 @@ ul {
 .update-note-button:hover {
   opacity: .9;
 }
+
+.text-fields {
+  width: 90%;
+  margin: 0 auto;
+}
