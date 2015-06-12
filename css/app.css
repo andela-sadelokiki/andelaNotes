@@ -108,7 +108,7 @@ ul {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 50px;
+  bottom: 65px;
   top: 0;
   overflow-y: hidden;
 }
@@ -138,4 +138,16 @@ ul {
 .statusbar .status-message {
   line-height: 50px;
   margin: 0;
+}
+.update-note-button {
+  position: relative;
+  background-color: #CCCCCC !important;
+  top: 76%;
+  left: 80%;
+  width: 200px;
+  height: 70px;
+  opacity: .3;
+}
+.update-note-button:hover {
+  opacity: .9;
 }

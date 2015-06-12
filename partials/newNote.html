@@ -1,0 +1,29 @@
+<form name="newNote" class="form-horizontal">
+ <fieldset>
+   <div class="row">
+     <!--error-->
+     <div class="modal-body">
+       <div data-ng-show="error" class="text-center text-danger">
+         <div class="alert alert-danger" role="alert">
+           <strong data-ng-bind="error"></strong>
+         </div>
+       </div>
+     </div>
+
+     <div class="col-sm-12 text-center">
+     </div>
+     <div class="col-xs-12 col-sm-12">
+       <label>Title<sup>*</sup></label>
+       <div class="controls">
+         <input type="text" ng-model="name">
+       </div>
+       <label class="control-label" for="description">Note<sup>*</sup></label>
+       <div class="controls">
+         <textarea type="text" ng-model="desc"></textarea>
+       </div>
+   <div class="modal-footer">
+     <button class="btn btn-success" data-ng-click="ok()" type="submit">Create</button>
+     <button class="btn btn-warning" data-ng-click="cancel()">Cancel</button>
+   </div>
+ </fieldset>
+</form>
